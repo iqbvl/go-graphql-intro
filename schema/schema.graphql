@@ -1,0 +1,15 @@
+
+type Query { 
+    listAdminUser(order: String, count: Int): [AdminUser]
+
+}
+
+type Mutation{   
+}
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+

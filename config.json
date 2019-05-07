@@ -1,0 +1,22 @@
+{
+    "database":[
+        {
+            "type": "sqlserver",
+            "instance" : "GoGraphQLIntroDB",
+            "host": "localhost",
+            "user": "sa",
+            "password": "Password123!!",
+            "port": "50152",
+            "dbName": "GoGraphQLIntroDB"
+        } 
+    ],
+    "serverPort": "8080",
+    "credential":{
+        "jwtSecret":"!Qb4L_0k3_b055",
+        "jwtExpiresIn":"P1Y"
+    } ,
+    "logFile": "logs/gographqlintro.log", 
+    "appName": "goGraphQLIntro",
+    "enableGraphiQL": true ,
+    "timeout_second": 60
+}

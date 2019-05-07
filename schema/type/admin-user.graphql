@@ -1,0 +1,11 @@
+type AdminUser {
+    id                      : String
+    adminName                    : String
+    username              : String
+    password              : String
+    status                : Int
+    createdDate            : String
+    createdBy                  : String
+    updatedDate             : String
+    updatedBy           : String 
+}
